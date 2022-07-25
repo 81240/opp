@@ -37,7 +37,6 @@ h2{
     right: -29%;
     width:  98.9% ;
     height: 17%;
-    z-index: -1;
 }
 .img1{
     display: table-cell;
@@ -46,7 +45,7 @@ h2{
     position: absolute;
     display: inline-block;
     box-align:center;
-    object-fit: cover;
+
     mask-mode: alpha;
     mask-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/234228/luminance-cat.png);
     mask-mode: luminance;
@@ -60,14 +59,14 @@ h2{
 }
 .a1:hover{
     z-index: 1;
-    right: -29%;
-    width:  98% ;
+    width:  120% ;
+    height: 20%;
 }
 .img1:hover{
     background-color: rgba(255, 226, 88, 1); background-image: repeating-linear-gradient(135deg, transparent,transparent 24px,
     rgb(255, 255, 255) 24px,#0f76b6 48px );
     background-position: center center;
-     z-index: 1;
+     z-index: 0;
  }
 .a2{
     margin: auto;
@@ -79,7 +78,6 @@ h2{
     right: 30%;
     width:  40% ;
     height: 32.7%;
-    z-index: -2;
 }
 .img2{
     display: table-cell;
@@ -88,7 +86,7 @@ h2{
     position: absolute;
     display: inline-block;
     box-align:center;
-    object-fit: cover;
+   
     width: 100%;
     height: 100%;
     z-index: -2;
@@ -114,7 +112,6 @@ h2{
     left:12%;
     width:  25%;
     height: 40%;
-    z-index: -3;
 }
 .img3{
     display: table-cell;
@@ -123,7 +120,7 @@ h2{
     position: absolute;
     display: inline-block;
     box-align:center;
-    object-fit: cover;
+   
     width: 100%;
     height: 100%;
     z-index: -3;
@@ -149,7 +146,6 @@ h2{
     left:20%;
     width:  60%;
     height:30%;
-    z-index: -4;
 }
 .img4{
     display: table-cell;
@@ -158,7 +154,6 @@ h2{
     position: absolute;
     display: inline-block;
     box-align:center;
-    object-fit: cover;
     width: 100%;
     height: 100%;
     z-index: -4;
@@ -184,7 +179,6 @@ h2{
     left:44%;
     width: 15%;
     height:15%;
-    z-index: -5;
 }
 .img5{
     display: table-cell;
@@ -193,7 +187,6 @@ h2{
     position: absolute;
     display: inline-block;
     box-align:center;
-    object-fit: cover;
     width: 100%;
     height: 100%;
     z-index: -5;
@@ -219,7 +212,6 @@ h2{
     left:23%;
     width: 66%;
     height:50%;
-    z-index: -6;
 }
 .img6{
     display: table-cell;
@@ -228,15 +220,14 @@ h2{
     position: absolute;
     display: inline-block;
     box-align:center;
-    object-fit: cover;
     width: 100%;
     height: 100%;
     z-index: -6;
 }
 .a6:hover{
     z-index: 1;
-     width:  30% ;
-     height: 30%;
+     width:  60% ;
+     height: 50%;
 }
 .img6:hover{
     background-color: rgba(255, 226, 88, 1); background-image: repeating-linear-gradient(135deg, transparent,transparent 24px,
@@ -254,7 +245,6 @@ h2{
     left:10%;
     width: 80%;
     height:28%;
-    z-index: -7;
 }
 .img7{
     display: table-cell;
@@ -263,14 +253,13 @@ h2{
     position: absolute;
     display: inline-block;
     box-align:center;
-    object-fit: cover;
     width: 100%;
     height: 100%;
     z-index: -7;
 }
 .a7:hover{
     z-index: 1;
-     width:  96% ;
+     width:  60% ;
      height: 33%;
 }
 .img7:hover{
@@ -289,7 +278,6 @@ h2{
     left:10%;
     width: 30%;
     height:40%;
-    z-index: -8;
 }
 .img8{
     display: table-cell;
@@ -298,7 +286,7 @@ h2{
     position: absolute;
     display: inline-block;
     box-align:center;
-    object-fit: cover;
+
     width: 100%;
     height: 100%;
     z-index: -8;
@@ -324,7 +312,6 @@ h2{
     right:15%;
     width: 30%;
     height:33%;
-    z-index: -9;
 }
 .img9{
     display: table-cell;
@@ -333,7 +320,7 @@ h2{
     position: absolute;
     display: inline-block;
     box-align:center;
-    object-fit: cover;
+
     width: 100%;
     height: 100%;
     z-index: -9;
@@ -369,7 +356,6 @@ h2{
     position: absolute;
     display: inline-block;
     box-align:center;
-    object-fit: cover;
     width: 100%;
     height: 100%;
     z-index: -10;
